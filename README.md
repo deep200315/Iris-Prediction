@@ -57,7 +57,7 @@ pip install -r requirements.txt
 python iris_api.py
 ```
 
-Usage
+## Using
 
 1.Ensure both the Flutter app and Flask backend are running.
 
@@ -69,19 +69,34 @@ Usage
 
 5.View the predicted iris species returned by the backend on the Flutter app interface.
 
-Project Structure
-flutter-iris-prediction-app: Contains the Flutter mobile app frontend.
-flask-iris-prediction-backend: Contains the Flask backend server.
+## Screenshots
+
+![Screenshot 2024-04-12 204046](https://github.com/deep200315/Iris-Prediction/assets/124486732/51faca7a-fced-44a2-a4c7-45d7c253e717)
 
 
-Dependencies
-Flutter App
-Flutter: Framework for building native applications using Dart.
-http: Dart package for making HTTP requests to the backend.
-Flask Backend
-Flask: Web framework used for building the backend server.
-scikit-learn: Library for machine learning tasks in Python.
+![Screenshot 2024-04-12 204131](https://github.com/deep200315/Iris-Prediction/assets/124486732/94fd7062-de9a-4b64-a9d3-48551f131069)
 
 
-Acknowledgments
+![Screenshot 2024-04-12 204152](https://github.com/deep200315/Iris-Prediction/assets/124486732/731ad74d-2f6e-45fb-a124-4fce8284a6cf)
+
+## Project Structure
+`Iris-Prediction`: Contains the Flutter mobile app frontend.
+`flask-iris-prediction-backend`: Contains the Flask backend server.
+
+
+## Dependencies
+
+### Flutter App
+
+`Flutter`: Framework for building native applications using Dart.
+`http`: Dart package for making HTTP requests to the backend.
+
+### Flask Backend
+
+`Flask`: Web framework used for building the backend server.
+`scikit-learn`: Library for machine learning tasks in Python.
+
+
+## Acknowledgments
+
 This app was inspired by the classic Iris dataset and demonstrates a full-stack application using Flutter and Flask.
